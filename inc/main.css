@@ -1,0 +1,191 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+
+.error {
+  font-weight: bold;
+  color: #FF0000;
+}
+
+
+/*--- navigation bar ---*/
+
+.navbar {
+  background:rgb(92, 91, 99);
+}
+/* color of the navbar words */
+.nav-link, .navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+/* collapses with screen size */ 
+.navbar-collapse {
+  justify-content: flex-end;
+}
+/* sets the background pic and makes it the entire width. need to add javascript page as well */
+.header {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+/* dims the bakcground */
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+/* changes the welcome header */
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+
+.description h1 {
+  color: rgb(191, 189, 206);
+}
+
+.description p {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+/* body and columms under picture */
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+
+
+.feature-title {
+  color: rgb(191, 189, 206);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+
+/* contact form */
+.features .form-control, .features input {
+  border-radius: 0;
+}
+
+.features, .btn {
+  background-color: #589b37;
+  border: 1px solid #589b37;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.features, .btn:hover {
+  background-color: #333;
+  border: 1px solid #333;
+}
+
+/* footer */
+
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
+
+/* index */
+.bods {
+background-image: url('https://images.pexels.com/photos/3582128/pexels-photo-3582128.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+}
+
+/* about page */
+.bod {
+    background-image: url('https://images.pexels.com/photos/5064926/pexels-photo-5064926.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* contact */
+.bod2 {
+  background-image: url('https://images.pexels.com/photos/5472307/pexels-photo-5472307.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* contact2 */
+.bod3 {
+  background-image: url('https://images.pexels.com/photos/5064926/pexels-photo-5064926.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+/* changes the color of contact2 page*/
+.custom-style { 
+  color:red; 
+}
+
+.contact {
+  margin-top: 80;
+}
+
+/* account */
+.bod4 {
+  background-image: url('https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* so it looks right on phones */
+
+@media (max-width: 575.98px) {
+
+  .description {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 10%;
+    transform: none;
+    text-align: center;
+  }
+  
+  .description h1 {
+    font-size: 2em;
+  }
+  
+  .description p {
+    font-size: 1.2rem;
+  }
+  
+  .features {
+    margin: 0;
+  }
+
+}
